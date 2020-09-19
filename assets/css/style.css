@@ -1,0 +1,53 @@
+/* These settings impact the look of the nav bar */
+.navbar-brand h3 {
+  background-color: teal;
+  color: white;
+}
+.navbar-nav .current {
+  color: black;
+}
+
+/* This is the background image for all pages */
+body {
+  background-image: url("../images/ignasi_pattern_s.png");
+}
+/* This creates the spacing between the navbar and the container on each page */
+.col-sm-12 p {
+  height: 50px;
+}
+
+/* This is the banner heading for each page*/
+.col-sm-8 h1 {
+  color: teal;
+}
+.col-sm-9 {
+  background-color: white;
+}
+
+/*This is for the profile picture on the about page. */
+.profileImg {
+  float: left;
+  width: 200px;
+  height: 150px;
+}
+
+/*This is for the pictures on the  portfolio page. */
+img {
+  padding: 10px;
+}
+
+/* This is for the color of the button on the contact page*/
+.btn {
+  background-color: teal;
+}
+/*This is for the footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: lightgrey;
+  text-align: center;
+  font-size: 10px;
+}
